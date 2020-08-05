@@ -71,7 +71,7 @@ body {
 }
 #process{
   text-align: center;
-  font-family: Quicksand;
+  font-family: "Quicksand";
 font-style: normal;
 font-weight: bold;
 font-size: 24px;
@@ -94,6 +94,128 @@ color: #FFFFFF;
 #caption{
   padding-top: 60px;
 }
+.process-circles{
+  display: flex;
+  justify-content: center;
+  
+
+}
+#mission{
+  left:2vw;
+  font-size: 18px;
+  color: white;
+}
+
+.circle{
+ 
+  font-size: 18px;
+  text-align: left;
+  padding: 100px;
+  
+  
+ 
+}
+/* .line{
+  
+  background: white;
+  width: 200px;
+  height: 3px;
+  display: flex;
+  justify-content: flex-end;
+} */
+
+.process-heading{
+  grid-area: process;
+  background-color: black;
+}
+.process-circles{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: 
+  "process process process"
+  "step1 step2 step3";
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.step1{
+  background-color: green;
+  grid-area: step1;
+  display: flex;
+  justify-content: center;
+}
+.step2{
+  background-color: blue;
+  grid-area: step2;
+  display: flex;
+  justify-content: center;
+}
+.step3{
+  background-color: purple;
+  grid-area: step3;
+  display: flex;
+  justify-content: center;
+}
+.mission-title{
+  background-color: purple;
+  grid-area: mission-title;
+  
+
+}
+.mission-statement{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 
+  "mission-title mission-title"
+  "our-mission mission-image";
+  grid-template-rows: 1fr 1fr;
+
+}
+.our-mission{
+  background-color: green;
+  grid-area: our-mission;
+  display: flex;
+  justify-content: center;
+
+}
+.mission-image{
+  background-color: green;
+  grid-area: mission-image;
+  display: flex;
+  justify-content: center;
+
+}
+.vision-title{
+  background-color: purple;
+  grid-area: vision-title;
+  display: flex;
+  justify-content: flex-end;
+  
+
+}
+.vision-statement{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 
+  "vision-title vision-title"
+  "vision-image our-vision";
+  grid-template-rows: 1fr 1fr;
+
+}
+.our-vision{
+  background-color: green;
+  grid-area: our-vision;
+  display: flex;
+  justify-content: center;
+
+}
+.vision-image{
+  background-color: green;
+  grid-area: vision-image;
+  display: flex;
+  justify-content: center;
+
+}
+
+
 
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
@@ -403,7 +525,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1, .h1 {
-  font-size: 2.5rem;
+  font-size: 21px;
 }
 
 h2, .h2 {
