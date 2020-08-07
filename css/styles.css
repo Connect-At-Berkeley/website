@@ -41,11 +41,11 @@
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
-*,
+/* *,
 *::before,
 *::after {
   box-sizing: border-box;
-}
+} */
 
 html {
   font-family: sans-serif;
@@ -76,7 +76,7 @@ body {
 }
 @keyframes clouds{
   from{
-    transform: translate(0px, 0px);
+    transform: translate(-100px, 0px);
   }
   to{
     transform: translate(100px, 0px);
@@ -144,7 +144,6 @@ color: #105a56;
 
 }
 #mission{
-  left:2vw;
   font-size: 18px;
   color: #105a56;
 }
@@ -172,6 +171,8 @@ color: #105a56;
   /* background-color: black; */
 }
 .process-circles{
+  padding-left: 50px;
+  padding-right: 50px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas: 
@@ -185,6 +186,8 @@ color: #105a56;
   display: flex;
   justify-content: center;
   font-size: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .step2{
   /* background-color: blue; */
@@ -192,6 +195,8 @@ color: #105a56;
   display: flex;
   justify-content: center;
   font-size: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .step3{
   /* background-color: purple; */
@@ -199,6 +204,8 @@ color: #105a56;
   display: flex;
   justify-content: center;
   font-size: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .space-top{
   grid-area: space-top;
@@ -207,22 +214,31 @@ color: #105a56;
 .landing-page{
   background-color: white;
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 2fr 1fr;
   grid-template-areas:
-  
-  "landing-caption landing-image";
+  "landing-caption space landing-image";
   /* grid-template-rows: 1fr 1fr; */
   padding-left: 50px;
 }
+#space{
+  grid-area: space;
+}
 .landing-caption{
-  padding-top: 100px;
-  padding-right: 10px;
+ 
+  padding-top: 200px;
+  /* padding-right: 30px; */
+  padding-left: 50px;
   /* background-color: magenta; */
   grid-area: landing-caption;
   text-align: left;
 }
+/* .crop{
+  position: absolute;
+    clip:rect(0px,400px,300px,0px);
+
+} */
 .landing-image{
-  /* background-color: green; */
+ 
   grid-area: landing-image;
 }
 .mission-title{
@@ -232,12 +248,13 @@ color: #105a56;
 
 }
 .mission-statement{
+  padding-left: 50px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: 
-  "mission-title mission-title"
+  "mission-title mission-image"
   "our-mission mission-image";
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 0.3fr 0.3fr;
 
 }
 .our-mission{
@@ -263,19 +280,20 @@ color: #105a56;
 
 }
 .vision-statement{
+  padding-right: 50px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: 
-  "vision-title vision-title"
+  "vision-image vision-title"
   "vision-image our-vision";
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 0.3fr 0.3fr;
 
 }
 .our-vision{
   /* background-color: green; */
   grid-area: our-vision;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
 
 }
 .vision-image{
@@ -923,6 +941,7 @@ pre code {
   left: 2vw;
   top: 12vh;
   text-align: left;
+  
 }
 .caption{
   flex: 0 0 33.3333333333%;
