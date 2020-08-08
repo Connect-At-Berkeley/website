@@ -41,11 +41,11 @@
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
-/* *,
+*,
 *::before,
 *::after {
   box-sizing: border-box;
-} */
+}
 
 html {
   font-family: sans-serif;
@@ -111,18 +111,10 @@ body {
    
   }
 }
+
 .reviews{
   display:flex;
   justify-content: center;
-}
-#process{
-  text-align: center;
-  font-family: "Quicksand";
-font-style: normal;
-font-weight: bold;
-font-size: 24px;
-line-height: 30px;
-color: #105a56;
 }
 
 #formbutton{
@@ -137,43 +129,36 @@ color: #105a56;
   top: 100px;
   border: none;
 }
+
 #caption{
   padding-top: 60px;
   color: #105a56;
 }
+
+#process{
+  text-align: center;
+  font-family: "Quicksand";
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 30px;
+color: #105a56;
+}
+
 .process-circles{
   display: flex;
   justify-content: center;
-  
-
 }
+
 #mission{
   font-size: 18px;
   color: #105a56;
 }
 
-.circle{
- 
-  font-size: 18px;
-  text-align: left;
-  padding: 100px;
-  
-  
- 
-}
-/* .line{
-  
-  background: white;
-  width: 200px;
-  height: 3px;
-  display: flex;
-  justify-content: flex-end;
-} */
-
 .process-heading{
   grid-area: process;
-  /* background-color: black; */
 }
+
 .process-circles{
 
   display: grid;
@@ -183,8 +168,8 @@ color: #105a56;
   "step1 step2 step3";
   grid-template-rows: 1fr 1fr 1fr;
 }
+
 .step1{
-  /* background-color: green; */
   grid-area: step1;
   display: flex;
   justify-content: center;
@@ -192,8 +177,8 @@ color: #105a56;
   padding-left: 20px;
   padding-right: 20px;
 }
+
 .step2{
-  /* background-color: blue; */
   grid-area: step2;
   display: flex;
   justify-content: center;
@@ -201,8 +186,8 @@ color: #105a56;
   padding-left: 20px;
   padding-right: 20px;
 }
+
 .step3{
-  /* background-color: purple; */
   grid-area: step3;
   display: flex;
   justify-content: center;
@@ -210,6 +195,7 @@ color: #105a56;
   padding-left: 20px;
   padding-right: 20px;
 }
+
 .space-top{
   grid-area: space-top;
 }
@@ -220,18 +206,15 @@ color: #105a56;
   grid-template-columns: 2fr 1fr;
   grid-template-areas:
   "landing-caption space landing-image";
-  /* grid-template-rows: 1fr 1fr; */
   padding-left: 50px;
 }
+
 #space{
   grid-area: space;
 }
-.landing-caption{
- 
 
-  /* padding-right: 30px; */
+.landing-caption{
   padding-left: 50px;
-  /* background-color: magenta; */
   grid-area: landing-caption;
   text-align: left;
 }
@@ -242,12 +225,11 @@ color: #105a56;
   display: flex;
   justify-content: center;
 }
-.mission-title{
-  /* background-color: purple; */
-  grid-area: mission-title;
-  
 
+.mission-title{
+  grid-area: mission-title;
 }
+
 .mission-statement{
   padding-left: 50px;
   display: grid;
@@ -256,29 +238,21 @@ color: #105a56;
   "mission-title mission-image"
   "our-mission mission-image";
   grid-template-rows: 0.3fr 0.3fr;
-
 }
+
 .our-mission{
-  /* background-color: green; */
   grid-area: our-mission;
  
 
 }
 .mission-image{
-  /* background-color: green; */
   grid-area: mission-image;
-  /* display: flex;
-  justify-content: center; */
-
 }
+
 .vision-title{
-  /* background-color: purple; */
   grid-area: vision-title;
-  display: flex;
-  justify-content: flex-end;
-  
-
 }
+
 .vision-statement{
   padding-right: 50px;
   display: grid;
@@ -287,23 +261,21 @@ color: #105a56;
   "vision-image vision-title"
   "vision-image our-vision";
   grid-template-rows: 0.3fr 0.3fr;
-
 }
+
 .our-vision{
-  /* background-color: green; */
   grid-area: our-vision;
- 
-
 }
+
 .vision-image{
-  /* background-color: green; */
   grid-area: vision-image;
-  /* display: flex;
-  justify-content: center; */
-
 }
 
-
+.button2{
+  display: flex;
+  justify-content: center; 
+  padding-bottom: 100px;
+}
 
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
@@ -315,10 +287,10 @@ hr {
   overflow: visible;
 }
 
-
 nav, h1, h2, h3, h5, h6 {
   color: #105a56!important;
 }
+
 h4{
   color: #105a56;
 }
@@ -10023,6 +9995,9 @@ button.bg-dark:focus {
 .text-white {
   color: #FFFFFF !important;
 }
+.text-green{
+  color: #105a56 !important;
+}
 
 .text-primary {
   color: #105a56 !important;
@@ -10484,10 +10459,12 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #FFFFFF;
-  color: #105a56 ;
+  background-color: #105a56;
+  color: #FFFFFF ;
 }
 
 .copyright {
-  background-color:  #105a56;
+  background-color: #FFFFFF;
+  color: #105a56;
 }
+
