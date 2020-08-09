@@ -70,6 +70,21 @@ body {
   background-color: white ;
 }
 
+#crop {
+  width: 900px;
+  height: 800px;
+  overflow: hidden;
+  padding-top: 6vh;
+}
+#crop2{
+  width: 800px;
+  height: 600px;
+  overflow: hidden;
+}
+#green-background{
+  background-color: #105a56;
+}
+
 #Move-Clouds{
   animation: clouds 60s infinite alternate;
 
@@ -169,7 +184,7 @@ color: #105a56;
   grid-template-rows: 1fr 1fr 1fr;
 }
 
-.step1{
+#step1{
   grid-area: step1;
   display: flex;
   justify-content: center;
@@ -178,23 +193,6 @@ color: #105a56;
   padding-right: 20px;
 }
 
-.step2{
-  grid-area: step2;
-  display: flex;
-  justify-content: center;
-  font-size: 18px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.step3{
-  grid-area: step3;
-  display: flex;
-  justify-content: center;
-  font-size: 18px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
 
 .space-top{
   grid-area: space-top;
@@ -601,7 +599,7 @@ h3, .h3 {
 }
 
 h4, .h4 {
-  font-size: 1.5rem;
+  font-size: 24px;
 }
 
 h5, .h5 {
@@ -613,7 +611,7 @@ h6, .h6 {
 }
 
 .lead {
-  font-size: 1.25rem;
+  font-size: 18px;
   font-weight: 300;
 }
 
@@ -848,8 +846,8 @@ pre code {
 .col-auto, .col-12, .col-11, .col-10, .col-9, .col-8, .col-7, .col-6, .col-5, .col-4, .col-3, .col-2, .col-1 {
   position: relative;
   width: 100%;
-  padding-right: 1.5rem;
-  padding-left: 1.5rem;
+  padding-right: 75px;
+  padding-left: 75px;
 }
 
 .col {
@@ -912,7 +910,7 @@ pre code {
 .col-4 {
   flex: 0 0 33.3333333333%;
   max-width: 33.3333333333%;
-  padding-top: 130px;
+  /* padding-top: 130px; */
   /* left: 2vw;
   top: 12vh; */
   text-align: left;
@@ -3085,8 +3083,8 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-light {
-  color: #105a56;
-  border-color:  #105a56;
+  color: white;
+  border-color: white;
 }
 .btn-outline-light:hover {
   color: #212529;
