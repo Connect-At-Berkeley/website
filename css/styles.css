@@ -67,7 +67,9 @@ body {
   line-height: 1.5;
   color: #105a56;
   text-align: left;
-  background-color: white ;
+  background-color: white;
+  /* padding-top: 10vmin; */
+  height: 40%;
 }
 
 #crop {
@@ -77,8 +79,8 @@ body {
   padding-top: 6vh;
 }
 #crop2{
-  width: 800px;
-  height: 600px;
+    max-width: 700px;
+    max-height: 700px;
   overflow: hidden;
 }
 #green-background{
@@ -225,48 +227,14 @@ color: #105a56;
 }
 
 .mission-title{
-  grid-area: mission-title;
+  text-align: left;
 }
 
-.mission-statement{
-  padding-left: 50px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas: 
-  "mission-title mission-image"
-  "our-mission mission-image";
-  grid-template-rows: 0.3fr 0.3fr;
-}
 
-.our-mission{
-  grid-area: our-mission;
- 
 
-}
-.mission-image{
-  grid-area: mission-image;
-}
 
 .vision-title{
-  grid-area: vision-title;
-}
-
-.vision-statement{
-  padding-right: 50px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas: 
-  "vision-image vision-title"
-  "vision-image our-vision";
-  grid-template-rows: 0.3fr 0.3fr;
-}
-
-.our-vision{
-  grid-area: our-vision;
-}
-
-.vision-image{
-  grid-area: vision-image;
+  text-align: left;
 }
 
 .button2{
