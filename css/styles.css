@@ -85,10 +85,13 @@ position: relative;
 .content_info{
   z-index:2;
   position: absolute;
-  padding-right: 150px;
-  padding-top: 50px;
-  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 100px;
+  padding-left: 75px;
   
+}
+.space{
+  padding: 30px;
 }
 .nopadding {
   padding: 0 !important;
@@ -129,10 +132,7 @@ position: relative;
   }
   
 }
-#left_move_tree{
-  animation: trees2 1s ease-in-out infinite alternate;
 
-}
 #right_move_tree{
   animation: trees 1s ease-in-out infinite alternate;
 
@@ -141,6 +141,10 @@ position: relative;
   animation: trees2 1s ease-in-out infinite alternate;
 
 }
+#right_tree{
+  animation: trees2 1s ease-in-out infinite alternate;
+}
+
 
 @keyframes trees{
   from{
@@ -154,11 +158,11 @@ position: relative;
 }
 @keyframes trees2{
   from{
-    transform: rotateY(5deg);
+    transform: rotateX(3deg);
    
   }
   to{
-    transform: rotateY(0deg);
+    transform: rotateX(0deg);
    
   }
 }
