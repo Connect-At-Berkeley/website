@@ -75,17 +75,20 @@ body {
  
 }
 .background-img{
-z-index: -0.5;
+z-index: 1;
+position: relative;
+
 }
 #landing_title{
   padding-right: 500px;
 }
 .content_info{
-  z-index:1;
+  z-index:2;
+  position: absolute;
   padding-right: 150px;
   padding-top: 50px;
   padding-left: 200px;
-  position: absolute;
+  
 }
 .nopadding {
   padding: 0 !important;
@@ -138,6 +141,7 @@ z-index: -0.5;
   animation: trees2 1s ease-in-out infinite alternate;
 
 }
+
 @keyframes trees{
   from{
     transform: rotateY(0deg);
@@ -150,7 +154,7 @@ z-index: -0.5;
 }
 @keyframes trees2{
   from{
-    transform: rotateY(10deg);
+    transform: rotateY(5deg);
    
   }
   to{
@@ -3083,13 +3087,13 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-light {
-  color: white;
-  border-color: white;
+  color: #0B413E;
+  border-color: #0B413E;
 }
 .btn-outline-light:hover {
-  color: #212529;
-  background-color: #f8f9fa;
-  border-color: #f8f9fa;
+  color: white;
+  background-color: #0B413E;
+  border-color: #0B413E;
 }
 .btn-outline-light:focus, .btn-outline-light.focus {
   box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5);
@@ -3134,11 +3138,11 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #105a56;
+  color: ;
   text-decoration: none;
 }
 .btn-link:hover {
-  color: #117964;
+  color: #105a56;
   text-decoration: underline;
 }
 .btn-link:focus, .btn-link.focus {
