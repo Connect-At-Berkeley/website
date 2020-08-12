@@ -87,7 +87,7 @@ position: relative;
   position: absolute;
   padding-right: 230px;
   padding-top: 100px;
-  padding-left: 75px;
+  padding-left: 140px;
   
 }
 .space{
@@ -96,6 +96,13 @@ position: relative;
 .nopadding {
   padding: 0 !important;
   margin: 0 !important;
+}
+
+.carousel {
+  /* any dimensions are fine, it can be responsive with max-width */
+  width: 500px;
+  height: 350px;
+ 
 }
 #crop {
   width: 900px;
@@ -152,7 +159,7 @@ position: relative;
    
   }
   to{
-    transform: rotateY(3deg);
+    transform: rotateY(4deg);
    
   }
 }
@@ -197,12 +204,12 @@ position: relative;
 
 #process{
   text-align: center;
-  font-family: "Quicksand";
-font-style: normal;
-font-weight: bold;
-font-size: 24px;
-line-height: 30px;
-color: white;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  color: white;
+  font-family: 'Martel Sans', sans-serif;
 }
 
 .process-circles{
@@ -213,6 +220,7 @@ color: white;
 #mission{
   font-size: 20px;
   color: white;
+  
 }
 
 .process-heading{
@@ -232,10 +240,9 @@ color: white;
 #step1{
   grid-area: step1;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   font-size: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
+  /* padding-right: 90px; */
 }
 
 
@@ -271,6 +278,7 @@ color: white;
 
 .mission-title{
   text-align: left;
+  font-family: 'Martel Sans', sans-serif;
 }
 
 
@@ -278,6 +286,7 @@ color: white;
 
 .vision-title{
   text-align: left;
+  font-family: 'Martel Sans', sans-serif;
 }
 
 .button2{
@@ -625,6 +634,7 @@ h6, .h6 {
 .lead {
   font-size: 18px;
   font-weight: 300;
+  font-family: 'Martel Sans', sans-serif;
 }
 
 .display-1 {
@@ -808,10 +818,7 @@ pre code {
   margin-left: auto;
  
 }
-#nav-top{
-  
-  border-bottom: 1px solid #105a56;
-}
+
 
 @media (min-width: 576px) {
   .container-sm, .container {
@@ -6143,11 +6150,12 @@ a.close.disabled {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 15%;
+  width: 5%;
   color: #105a56 ;
   text-align: center;
   opacity: 0.5;
   transition: opacity 0.15s ease;
+  background-color: #0B413E;
 }
 @media (prefers-reduced-motion: reduce) {
   .carousel-control-prev,
@@ -6166,6 +6174,7 @@ a.close.disabled {
 
 .carousel-control-prev {
   left: 0;
+  
 }
 
 .carousel-control-next {
@@ -6178,6 +6187,7 @@ a.close.disabled {
   width: 20px;
   height: 20px;
   background: no-repeat 50%/100% 100%;
+
 }
 
 .carousel-control-prev-icon {
@@ -6325,6 +6335,9 @@ a.close.disabled {
   vertical-align: text-top !important;
 }
 
+.bg-primary2 {
+  background-color: #0B413E;
+}
 .bg-primary {
   background-color: white;
 }
@@ -10294,6 +10307,7 @@ h3 {
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
+  border-bottom: 1px solid #105a56;
 }
 #mainNav .navbar-brand {
   color: #105a56 ;
