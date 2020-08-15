@@ -1,24 +1,24 @@
 <svg viewBox="0 0 1471 1002" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="Frame 1" clip-path="url(#clip0)">
 <path id="Vector 23" d="M871.263 285.937C1037.38 100.677 1440 -6.5 1440 -6.5V718.805H217.539C199.329 719.244 188 718.805 188 718.805H217.539C268.666 717.571 374.036 709.407 435.202 665.127C488.702 626.397 491.455 565.262 547.566 531.672C612.492 492.805 669.207 547.107 734.264 508.526C816.918 459.511 804.673 360.202 871.263 285.937Z" fill="#C1EEDE"/>
-<rect id="Rectangle 82" y="719" width="1444" height="283" fill="#062F2C"/>
-<g id="Clouds 2" filter="url(#filter0_d)">
+<rect id="Rectangle 82" y="719" width="1444" height="115" fill="#062F2C"/>
+<g id="right_cloud" filter="url(#filter0_d)">
 <rect x="1251" y="280" width="189" height="82" fill="url(#pattern0)"/>
 </g>
 <g id="Foreground Dana 1" filter="url(#filter1_d)">
 <rect x="1087" y="488" width="371" height="243" rx="13" fill="url(#pattern1)"/>
 </g>
-<g id="Clouds 1" filter="url(#filter2_d)">
+<g id="left_cloud" filter="url(#filter2_d)">
 <rect x="589" y="183" width="597" height="98" fill="url(#pattern2)"/>
 </g>
 <g id="Berkeley Tower 1" filter="url(#filter3_d)">
 <rect x="1013" y="126" width="143" height="582" fill="url(#pattern3)"/>
 </g>
-<g id="Move tree 3" filter="url(#filter4_d)">
+<g id="right_move_tree" filter="url(#filter4_d)">
 <rect x="792" y="424" width="616" height="356" fill="url(#pattern4)"/>
 </g>
 <g id="Foreground Dana 2" filter="url(#filter5_d)">
-<rect x="-25" y="482" width="331" height="237" rx="32" fill="url(#pattern5)"/>
+<rect x="-27" y="494" width="331" height="237" rx="32" fill="url(#pattern5)"/>
 </g>
 </g>
 <defs>
@@ -82,7 +82,7 @@
 <pattern id="pattern4" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image3" transform="translate(-0.467043 -0.327439) scale(0.00061434 0.000937971)"/>
 </pattern>
-<filter id="filter5_d" x="-29" y="482" width="339" height="247" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter5_d" x="-31" y="494" width="339" height="247" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
 <feOffset dy="6"/>
