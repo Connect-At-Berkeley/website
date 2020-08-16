@@ -68,24 +68,33 @@ body {
   padding-top: 10vmin;
   height: 40%;
 }
+
 .header-row{
   text-align: left;
  
 }
+
 .back{
   z-index: -1;
-  
 }
+
 .front{
   z-index: 3;
-
 }
+
+.ourstory{
+  border-radius: 25px;
+  background: #062F2C;
+  color: white;
+  padding: 50px;
+  font-family: 'Martel Sans', sans-serif;
+}
+
 .background-img{
 z-index: 1;
 position: relative;
 height: 100%;
 width: 100%;
-
 }
 
 .content_info{
@@ -93,53 +102,52 @@ width: 100%;
   position: absolute;
   padding-right: 100px;
   padding-top: 130px;
-  padding-left: 120px;
+  padding-left: 10vw;
 }
-/* @media screen and (min-width: 208px) {
-  .background-img {
-    padding-top: 50px;
-  }
-} */
+
 .space{
   padding: 30px;
 }
+
 .nopadding {
   padding: 0 !important;
   margin: 0 !important;
 }
 
 .carousel {
-  /* any dimensions are fine, it can be responsive with max-width */
   width: 500px;
   height: 350px;
- 
 }
+
 #crop {
   width: 900px;
   height: 800px;
   overflow: hidden;
   padding-top: 6vh;
 }
+
 #crop2{
     max-width: 700px;
     max-height: 700px;
   overflow: hidden;
 }
+
 #green-background{
   background-color: #062F2C;
 }
+
 #white-background{
   background-color: white;
 }
 
 #right_cloud{
   animation: clouds 60s infinite alternate;
-
 }
+
 #left_cloud{
   animation: clouds 60s infinite alternate;
-
 }
+
 @keyframes clouds{
   from{
     transform: translate(-100px, 0px);
@@ -152,9 +160,7 @@ width: 100%;
 
 #right_move_tree{
   animation: trees 1s ease-in-out infinite alternate;
-
 }
-
 
 @keyframes trees{
   from{
@@ -183,8 +189,9 @@ width: 100%;
   font-size: 18px;
   top: 100px;
   border: none;
-  z-index: 1;
+  z-index: 1029;
 }
+
 #formbutton:hover {
   background-color:gold; /* Green */
   color:#0B413E ;
@@ -214,10 +221,7 @@ width: 100%;
   font-size: 20px;  
 }
 
-
-
 .process-circles{
-
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas: 
@@ -231,9 +235,7 @@ width: 100%;
   display: flex;
   justify-content: space-between;
   font-size: 20px;
-  /* padding-right: 90px; */
 }
-
 
 .space-top{
   grid-area: space-top;
@@ -269,9 +271,6 @@ width: 100%;
   text-align: left;
   font-family: 'Martel Sans', sans-serif;
 }
-
-
-
 
 .vision-title{
   text-align: left;
@@ -613,7 +612,7 @@ h4, .h4 {
 }
 
 h5, .h5 {
-  font-size: 1.25rem;
+  font-size: 18px;
 }
 
 h6, .h6 {
@@ -10351,10 +10350,9 @@ h3 {
     font-size: 1.5em;
   }
 }
-.masthead {
+/* .masthead {
   padding-top: calc(1rem + 74px);
-  padding-bottom: 1rem;
-}
+} */
 .masthead .masthead-heading {
   font-size: 21px;
   line-height: 2.75rem;
@@ -10479,11 +10477,5 @@ form .row:first-child .floating-label-form-group {
 .copyright {
   background-color: white;
   color:#062F2C ;
-}
-.processrow {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: -5rem;
-  margin-left: -1.5rem;
 }
 
