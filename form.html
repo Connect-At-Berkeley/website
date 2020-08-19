@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>Form</title>
+    <link href="css/form.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="popup" id="form">
+        <h3> Connect@Cal Resource Connection Form</h3>
+        <h4> Every case will be anonymous and we will work diligently to protect and ensure data privacy. 
+
+            We collect name and email addresses for the sole purpose of responding to you and for no other purposes. 
+            
+            Please do not include any sensitive and personal information, like income, student ID number or social security numbers. </h4>
+        <form action="danafeng308@gmail.com" method="post">
+            <fieldset>
+                <ul>
+                    <li>
+                        <label for="name">Name (Optional):</label>
+                        <input type="text" id="name" name="user_name">
+                    </li>
+                    <li>
+                        <label for="mail">Berkeley Email:</label>
+                        <input type="email" id="mail" name="user_email">
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <ul>
+                    <li>
+                        <label for="msg">What do you need help with?</label>
+                        <h5>Please do not include any sensitive and personal information, like income, student ID number or social security numbers.
+
+                            DO mention your major and year if you believe it is relevant.
+                        </h5>
+                        <textarea id="msg" name="user_message"></textarea>
+                        <h5> What category does your question/request fall into?</h5>
+                        <input type="checkbox" name="area" value="choice1"> Choice 1
+                        <input type="checkbox" name="area" value="choice2"> Choice 2
+                        <input type="checkbox" name="area" value="choice3"> Choice 3
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <ul>
+                    <li>
+                        <label class="switch">
+                            This case is time sensitive.
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                    </li>
+                    <li>
+                        <label class="switch">
+                            I would like to enroll in constant updates as new resources get discovered.
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                    </li>
+                    <li>
+                        <label class="switch">
+                            I would be willing to participate in a survey to improve Connect@Cal.
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                    </li>
+                
+                </ul>
+            </fieldset>
+            <fieldset>
+                <ul>
+                    <li>
+                        <label for="msg">Questions or Comments?</label>
+                        <textarea id="msg" name="user_message"></textarea>
+
+                    </li>
+                    <li class="button">
+                        <button type="submit">Submit my request!</button>
+                    </li>
+                </ul>
+            </fieldset>
+        </form>
+    </div>
+  </body>
+</html>
