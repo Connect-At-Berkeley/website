@@ -109,9 +109,6 @@ width: 100%;
   padding-left: 10vw;
 }
 
-.space{
-  padding: 30px;
-}
 
 .nopadding {
   padding: 0 !important;
@@ -209,6 +206,25 @@ width: 100%;
   z-index: 1029;
   animation: glow 2000ms infinite;
 }
+#formbutton2{
+  background-color:#056Ba5;
+  color: white;
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  top: 100px;
+  border: none;
+  z-index: 1029;
+}
+
+#formbutton2:hover {
+  background-color:#C1EEDE; /* Green */
+  color:#056Ba5 ;
+}
+
 
 #formbutton:hover {
   background-color:#C1EEDE; /* Green */
