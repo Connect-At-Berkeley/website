@@ -61,7 +61,7 @@
                             Just click the button below! 
                         </h5>
                         <div class="content_info" style="padding-top: 30vw;"> 
-                            <button style="font-size:1.5vw;" id="formbutton"> Submit a case</button> 
+                            <button type="button" data-toggle ="modal" data-target="#popupform" style="font-size:1.5vw;" id="formbutton"> Submit a case</button> 
                         </div>
                        
                         <svg viewBox="0 0 1440 834" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -173,6 +173,111 @@
                 </div>
             </div>
         </header> 
+
+        <!-- Modal Form -->
+        <div class="modal fade" id="popupform" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">
+                            Connect@Cal Resource Connection Form
+                        </h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <div>
+                                <p> 
+                                    Every case will be anonymous and we will work diligently to protect and ensure data privacy. 
+                                </p>
+                                <p>
+                                    We collect name and email addresses for the sole purpose of responding to you and for no other purposes. 
+                                    
+                                </p>
+                                <p>
+                                    Please do not include any sensitive and personal information, like income, student ID number or social security numbers. 
+                                </p>
+                            </div>
+                            <div class="popup" id="form">
+                                <form action="danafeng308@gmail.com" method="post">
+                                    <fieldset>
+                                        <ul>
+                                            <li>
+                                                <label for="name">Name (Optional):</label>
+                                                <input type="text" id="name" name="user_name">
+                                            </li>
+                                            <li>
+                                                <label for="mail">Berkeley Email:</label>
+                                                <input type="email" id="mail" name="user_email">
+                                            </li>
+                                        </ul>
+                                    </fieldset>
+                                    <fieldset>
+                                        <ul>
+                                            <li>
+                                                <label for="msg">What do you need help with?</label>
+                                                <p>Please do not include any sensitive and personal information,like income, student ID number or social security numbers.
+                                                </p>
+                                                <p>
+                                                    DO mention your major and year if you believe it is relevant.
+                                                </p>
+                                                <textarea id="msg" name="user_message"></textarea>
+                                                <h5> What category does your question/request fall into?</h5>
+                                                <input type="checkbox" name="area" value="choice1"> Choice 1
+                                                <input type="checkbox" name="area" value="choice2"> Choice 2
+                                                <input type="checkbox" name="area" value="choice3"> Choice 3
+                                            </li>
+                                        </ul>
+                                    </fieldset>
+                                    <fieldset>
+                                        <ul>
+                                            <li>
+                                                <label class="switch">
+                                                    This case is time sensitive.
+                                                    <input type="checkbox">
+                                                    <span class="slider round"></span>
+                                                </label>
+                                            </li>
+                                            <li>
+                                                <label class="switch">
+                                                    I would like to enroll in constant updates as new resources get discovered.
+                                                    <input type="checkbox">
+                                                    <span class="slider round"></span>
+                                                </label>
+                                            </li>
+                                            <li>
+                                                <label class="switch">
+                                                    I would be willing to participate in a survey to improve Connect@Cal.
+                                                    <input type="checkbox">
+                                                    <span class="slider round"></span>
+                                                </label>
+                                            </li>
+                                        
+                                        </ul>
+                                    </fieldset>
+                                    <fieldset>
+                                        <ul>
+                                            <li>
+                                                <label for="msg">Questions or Comments?</label>
+                                                <textarea id="msg" name="user_message"></textarea>
+                        
+                                            </li>
+                                        </ul>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                      </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary">Send my request!
+                    </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
 
         <!--The Process-->
        <section style="background-image:linear-gradient(#ECFFFE, white);"class="page-section portfolio" id="process">

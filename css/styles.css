@@ -68,7 +68,9 @@ body {
   padding-top: 10vmin;
   height: 40%;
 }
-
+ul{
+  list-style-type: none;
+}
 .container1{
   border-radius: 25px;
 }
@@ -5739,7 +5741,7 @@ a.close.disabled {
   flex-direction: column;
   width: 100%;
   pointer-events: auto;
-  background-color: #056Ba5 ;
+  background-color: white;
   background-clip: padding-box;
   border: 0 solid rgba(0, 0, 0, 0.2);
   border-radius: 0.75rem;
@@ -5784,7 +5786,7 @@ a.close.disabled {
 .modal-body {
   position: relative;
   flex: 1 1 auto;
-  padding: 4rem 1rem;
+  padding-bottom: 10px;
 }
 
 .modal-footer {
@@ -5836,7 +5838,7 @@ a.close.disabled {
 @media (min-width: 992px) {
   .modal-lg,
 .modal-xl {
-    max-width: 800px;
+    max-width: 900px;
   }
 }
 @media (min-width: 1200px) {
