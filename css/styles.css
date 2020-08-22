@@ -490,6 +490,15 @@ caption {
   text-align: left;
   caption-side: bottom;
 }
+.current{
+  background-color: #056Ba5;
+  color: white !important;
+  text-align: center;
+
+}
+.notcurrent{
+  text-align: center;
+}
 
 th {
   text-align: inherit;
@@ -507,7 +516,7 @@ button {
 
 button:focus {
   outline: 1px dotted;
-  outline: 5px auto -webkit-focus-ring-color;
+  outline: 5px auto white;
 }
 
 input,
@@ -825,7 +834,7 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
-@media (min-width: 900px) {
+@media (min-width: 576px) {
   .container {
     max-width: 540px;
   }
@@ -856,7 +865,7 @@ pre code {
 }
 
 
-@media (min-width: 900px) {
+@media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
   }
@@ -1124,7 +1133,7 @@ pre code {
   margin-left: 91.6666666667%;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 576px) {
   .col-sm {
     flex-basis: 0;
     flex-grow: 1;
@@ -2658,7 +2667,7 @@ textarea.form-control {
 .form-inline .form-check {
   width: 100%;
 }
-@media (min-width: 900px) {
+@media (min-width: 576px) {
   .form-inline label {
     display: flex;
     align-items: center;
@@ -3315,7 +3324,7 @@ input[type=button].btn-block {
   left: auto;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 576px) {
   .dropdown-menu-sm-left {
     right: auto;
     left: 0;
@@ -4357,7 +4366,7 @@ input[type=button].btn-block {
     padding-left: 0;
   }
 }
-@media (min-width: 900px) {
+@media (min-width: 576px) {
   .navbar-expand-sm {
     flex-flow: row nowrap;
     justify-content: flex-start;
@@ -4744,7 +4753,7 @@ input[type=button].btn-block {
 .card-deck .card {
   margin-bottom: 1.5rem;
 }
-@media (min-width: 900px) {
+@media (min-width: 576px) {
   .card-deck {
     display: flex;
     flex-flow: row wrap;
@@ -4762,7 +4771,7 @@ input[type=button].btn-block {
 .card-group > .card {
   margin-bottom: 1.5rem;
 }
-@media (min-width: 900px) {
+@media (min-width: 576px) {
   .card-group {
     display: flex;
     flex-flow: row wrap;
@@ -4804,7 +4813,7 @@ input[type=button].btn-block {
 .card-columns .card {
   margin-bottom: 0.75rem;
 }
-@media (min-width: 900px) {
+@media (min-width: 576px) {
   .card-columns {
     -moz-column-count: 3;
          column-count: 3;
@@ -5092,7 +5101,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   background-color: #e9ecef;
   border-radius: 0.75rem;
 }
-@media (min-width: 900px) {
+@media (min-width: 576px) {
   .jumbotron {
     padding: 4rem 2rem;
   }
@@ -5375,7 +5384,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   border-left-width: 0.125rem;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 576px) {
   .list-group-horizontal-sm {
     flex-direction: row;
   }
@@ -5822,7 +5831,7 @@ a.close.disabled {
   overflow: scroll;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 576px) {
   .modal-dialog {
     max-width: 500px;
     margin: 1.75rem auto;
@@ -6625,7 +6634,7 @@ button.bg-dark:focus {
   display: inline-flex !important;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 576px) {
   .d-sm-none {
     display: none !important;
   }
@@ -6987,7 +6996,7 @@ button.bg-dark:focus {
   align-self: stretch !important;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 576px) {
   .flex-sm-row {
     flex-direction: row !important;
   }
@@ -7547,7 +7556,7 @@ button.bg-dark:focus {
   float: none !important;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 576px) {
   .float-sm-left {
     float: left !important;
   }
@@ -8198,7 +8207,7 @@ button.bg-dark:focus {
   margin-left: auto !important;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 576px) {
   .m-sm-0 {
     margin: 0 !important;
   }
@@ -9964,7 +9973,7 @@ button.bg-dark:focus {
   text-align: center !important;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 576px) {
   .text-sm-left {
     text-align: left !important;
   }

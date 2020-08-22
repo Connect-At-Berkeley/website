@@ -25,11 +25,11 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto mr-4">
                         <!-- <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#home">Home</a></li> -->
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="about.html">About</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="faq.html">FAQ</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="resources.html">Add a Resource</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="getinvolved.html">Get Involved</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="partners.html">Our Partners</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="notcurrent nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="about.html">About</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="notcurrent nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="faq.html">FAQ</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="notcurrent nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="resources.html">Add a Resource</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="notcurrent nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="getinvolved.html">Get Involved</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="notcurrent nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="partners.html">Our Partners</a></li>
                     </ul>
                 </div>
             </div>
@@ -61,7 +61,7 @@
                             Just click the button below!
                         </h5>
                         <div class="content_info" style="padding-top: 30vw;">
-                            <button type="button" data-toggle ="modal" data-target="#popupform" style="font-size:1.5vw;" id="formbutton"> Submit a case</button>
+                            <button type="button" style="font-size:1.5vw;" class="formopen" id="formbutton"> Submit a case</button>
                         </div>
 
                         <svg viewBox="0 0 1440 834" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -174,148 +174,51 @@
             </div>
         </header>
 
-        <!-- Modal Form -->
-        <div class="modal fade" id="popupform" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h4 class="modal-title">
-                            Connect@Cal Resource Connection Form
-                        </h4>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                          </button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="container-fluid">
-                            <div>
-                                <p>
-                                    Every case will be anonymous and we will work diligently to protect and ensure data privacy.
-                                </p>
-                                <p>
-                                    We collect name and email addresses for the sole purpose of responding to you and for no other purposes.
-
-                                </p>
-                                <p>
-                                    Please do not include any sensitive and personal information, like income, student ID number or social security numbers.
-                                </p>
-                            </div>
-                            <div class="popup" id="form">
-                                <form action="danafeng308@gmail.com" method="post">
-                                    <fieldset>
-                                        <ul>
-                                            <li>
-                                                <label for="name">Name (Optional):</label>
-                                                <input type="text" id="name" name="user_name">
-                                            </li>
-                                            <li>
-                                                <label for="mail">Berkeley Email:</label>
-                                                <input type="email" id="mail" name="user_email">
-                                            </li>
-                                        </ul>
-                                    </fieldset>
-                                    <fieldset>
-                                        <ul>
-                                            <li>
-                                                <label for="msg">What do you need help with?</label>
-                                                <p>Please do not include any sensitive and personal information,like income, student ID number or social security numbers.
-                                                </p>
-                                                <p>
-                                                    DO mention your major and year if you believe it is relevant.
-                                                </p>
-                                                <textarea id="msg" name="user_message"></textarea>
-                                                <h5> What category does your question/request fall into?</h5>
-                                                <input type="checkbox" name="area" value="choice1"> Choice 1
-                                                <input type="checkbox" name="area" value="choice2"> Choice 2
-                                                <input type="checkbox" name="area" value="choice3"> Choice 3
-                                            </li>
-                                        </ul>
-                                    </fieldset>
-                                    <fieldset>
-                                        <ul>
-                                            <li>
-                                                <label class="switch">
-                                                    This case is time sensitive.
-                                                    <input type="checkbox">
-                                                    <span class="slider round"></span>
-                                                </label>
-                                            </li>
-                                            <li>
-                                                <label class="switch">
-                                                    I would like to enroll in constant updates as new resources get discovered.
-                                                    <input type="checkbox">
-                                                    <span class="slider round"></span>
-                                                </label>
-                                            </li>
-                                            <li>
-                                                <label class="switch">
-                                                    I would be willing to participate in a survey to improve Connect@Cal.
-                                                    <input type="checkbox">
-                                                    <span class="slider round"></span>
-                                                </label>
-                                            </li>
-
-                                        </ul>
-                                    </fieldset>
-                                    <fieldset>
-                                        <ul>
-                                            <li>
-                                                <label for="msg">Questions or Comments?</label>
-                                                <textarea id="msg" name="user_message"></textarea>
-
-                                            </li>
-                                        </ul>
-                                    </fieldset>
-                                </form>
-                            </div>
-                        </div>
-                      </div>
-                    <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary">Send my request!
-                    </button>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
         <!--The Process-->
        <section style="background-image:linear-gradient(#ECFFFE, white);"class="page-section portfolio" id="process">
            <div class="container-fluid">
                <div class="row">
                     <div class="col-sm-12">
-                        <h4 class="text-center mb-5"> How It Works</h4>
+                        <div class="row d-flex justify-content-center">
+                            <h4> How It Works</h4>
+                        </div>
+                        <div class="row mb-5 d-flex justify-content-center">
+                            <img src="assets/img/lines.svg">
+                        </div>
                     </div>
                 </div>
 
                 <div class="row">
                         <div class= "col-md-4 m-5 m-md-0">
                             <div class="row d-flex justify-content-center">
-                                <img class="img-fluid" src="assets/img/process.png">
+                                    <p> 1. </p>
+                                <img class="mb-5 img-fluid" src="assets/img/process1.svg">
                             </div>
                             <div class="row m-2 d-flex justify-content-center">
                                 <p class="text-center">
-                                    You submit the Connect@Cal form with a request.
+                                    You submit a case with a request, issue, or question via the Connect@Cal site.
                                 </p>
                             </div>
                         </div>
                         <div class= "col-md-4 m-5 m-md-0">
                             <div class="row d-flex justify-content-center">
-                                <img class="img-fluid" src="assets/img/process.png">
+                                <p> 2. </p>
+                                <img class="mb-5 img-fluid" src="assets/img/process2.svg">
                             </div>
                             <div class="row m-2 d-flex justify-content-center">
                                 <p class="text-center">
-                                    We search through our database, work with our partners, and compile a response.
+                                    We search through our database and work with our partners to compile a response.
                                    </p>
                             </div>
                         </div>
                         <div class= "col-md-4 m-5 m-md-0">
                             <div class="row d-flex justify-content-center">
-                                <img class="img-fluid" src="assets/img/process.png">
+                                <p> 3. </p>
+                                <img class="mb-5 img-fluid" src="assets/img/process3.svg">
                             </div>
                             <div class="row m-2 d-flex justify-content-center">
                                 <p class="text-center">
-                                    You get connected to the most relevant resources!
+                                    You get connected to the most relevant and useful resources!
                                 </p>
                             </div>
                         </div>
@@ -329,7 +232,8 @@
                 <div class="row d-flex justify-content-center align-items-start">
                     <div class="col-lg-7">
                         <div class="mission-title" id ="mission">
-                            <h4 class="mb-5"> Our Mission</h4>
+                            <h4> Our Mission</h4>
+                            <img class="mb-5" src="assets/img/linesleft.svg">
                             <p class="mb-5" style="color: #056Ba5"> We believe that the overabundance of information, siloed resources, and the state of UC Berkeley's support system have inhibited students from achieving holistic wellness on campus.
                             </p>
 
@@ -348,15 +252,16 @@
         <!-- Our Vision-->
         <section class="page-section porfolio" id="mission">
             <div class="container-fluid">
-                <div class="row d-flex justify-content-center align-items-start">
-                    <div class="col-lg-5 order-sm-2 order-md-1">
+                <div class="row">
+                    <div class="col-lg-5 order-lg-1 col-md-12 order-md-12 order-12">
                         <div class="vision-image" id="crop2">
                             <img src="assets/img/vision.svg">
                         </div>
                     </div>
-                    <div class="col-lg-7 order-md-2 order-sm-1">
+                    <div class="col-lg-7 order-lg-2 col-md-12 order-md-1 order-1">
                         <div class="vision-title">
-                          <h4 class="mb-5"> Our Vision</h4>
+                          <h4> Our Vision</h4>
+                          <img class="mb-5" src="assets/img/linesleft.svg">
                             <p class="mb-5" style="color: #056Ba5">
                             We hope to reshape the way students and resource providers on campus are connected such that every resource gap in the system is identified and addressed.
                             </p>
@@ -416,11 +321,11 @@
                 <div class="background-img">
                     <div class="row d-flex justify-content-center">
                         <div style="padding-top: 20vw;" class= "row content_info">
-                            <h4 style=" font-size: 3vw; color: white;"> Get Connected. Fill out the form now!</h4>
+                            <h4 style=" font-size: 3vw; color: white;"> Get connected now!</h4>
                         </div>
 
                         <div style="padding-top: 30vw;" class="mb-1 row content_info">
-                            <button style="font-size: 1.5vw;" id="formbutton"> Connect@Cal Form</button>
+                            <button class="formopen" style="font-size: 1.5vw;" id="formbutton"> Submit a case</button>
                         </div>
                         </div>
                     <img class="back" src="assets/img/landing_bottom.svg">
@@ -438,13 +343,13 @@
                         <p class="lead mb-0">Give Feedback</p>
                         <p class="lead mb-0">Report a bug</p>
                         <p class="lead mb-0">Add a Resource</p>
-                        <p class="lead mb-0">Partner with us</p>
+                        <p class="lead mb-5">Partner with us</p>
                     </div>
                     <!-- Footer Social Icons-->
                     <div class="col-sm-4 order-sm-12">
                         <h4 class="text-uppercase mb-4">Contact Us</h4>
                         <p> connect.berkeley@gmail.com</p>
-                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/connect.cal"><i class="fab fa-fw fa-facebook-f"></i></a>
+                        <a class="mb-5 btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/connect.cal"><i class="fab fa-fw fa-facebook-f"></i></a>
                     </div>
                     <div class="col-sm-4 order-sm-12">
                         <a href="https://www.ocf.berkeley.edu">
