@@ -1,4 +1,5 @@
-<svg viewBox="0 0 1440 834" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="1440" height="834" viewBox="0 0 1440 834" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="1440" height="834" fill="#E5E5E5"/>
 <g id="Frame 1" clip-path="url(#clip0)">
 <path id="Vector 23" d="M871.263 281.475C1037.38 93.0231 1440 -16 1440 -16V721.801H217.539C199.329 722.248 188 721.801 188 721.801H217.539C268.666 720.546 374.036 712.241 435.202 667.199C488.702 627.802 491.455 565.613 547.566 531.444C612.492 491.908 669.207 547.145 734.264 507.9C816.918 458.04 804.673 357.02 871.263 281.475Z" fill="#ECFFFE"/>
 <rect id="Rectangle 82" y="719" width="1444" height="115" fill="#ECFFFE"/>
