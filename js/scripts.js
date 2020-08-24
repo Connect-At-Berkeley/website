@@ -64,9 +64,11 @@
         $(this).removeClass("floating-label-form-group-with-focus");
       });
     });
-    $(".formopen").click(function(){
-      window.open("https://forms.gle/71Z6KgxjjVAU5A8q8");
-      console.log("opened form")
+    $(document).ready(function(){
+      $(".formopen").click(function(){
+        window.open("https://forms.gle/71Z6KgxjjVAU5A8q8");
+        console.log("opened form")
+      });
     });
     
   })(jQuery); // End of use strict

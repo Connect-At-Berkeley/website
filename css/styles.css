@@ -238,13 +238,13 @@ width: 100%;
 }
 
 #formbutton2:hover {
-  background-color:#C1EEDE; /* Green */
+  background-color:#C1EEDE;
   color:#056Ba5 ;
 }
 
 
 #formbutton:hover {
-  background-color:#C1EEDE; /* Green */
+  background-color:#C1EEDE; 
   color:#056Ba5 ;
 }
 
@@ -430,13 +430,16 @@ sup {
   top: -0.5em;
 }
 
+
+
 a {
-  color: gray;
+  color: #056Ba5;
   text-decoration: none;
   background-color: transparent;
+  font-size: 18px;
 }
 a:hover {
-  color:white;
+  color: turquoise;
   text-decoration: underline;
 }
 
