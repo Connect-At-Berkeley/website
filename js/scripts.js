@@ -66,7 +66,7 @@
     });
     $(document).ready(function(){
       $(".formopen").click(function(){
-        window.open("https://forms.gle/71Z6KgxjjVAU5A8q8");
+        window.open("form.html", "_self");
         console.log("opened form")
       });
     });
