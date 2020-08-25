@@ -92,11 +92,14 @@ ul{
 
 
 .back{
-  z-index: -1;
+  z-index: 1;
+  position: relative;
 }
 
 .front{
-  z-index: 3;
+  z-index: 1029;
+  position: absolute;
+  left: 35%;
 }
 
 .ourstory{
