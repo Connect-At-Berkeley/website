@@ -77,7 +77,7 @@ ul{
 
 .header-row{
   text-align: left;
- 
+
 }
 
 #vision-container{
@@ -86,7 +86,7 @@ ul{
 
 @media screen and (max-width: 531px) {
   #vision-container{
-    display: flex; flex-flow: column-reverse !important; 
+    display: flex; flex-flow: column-reverse !important;
   }
 }
 
@@ -110,7 +110,7 @@ ul{
   color: #056BA5;
   padding: 50px;
   font-family: 'Martel Sans', sans-serif;
-  
+
 }
 .storyimg{
   padding-top: 20vh;
@@ -120,13 +120,13 @@ ul{
   .landing-back {
     background-image:none;
     background-color: #056BA5;
-    padding-bottom: 50vw;
-    background-image: url('./landing.svg'); height:100%; width: 100%; background-color:#056BA5; background-position: bottom;background-repeat: no-repeat;  background-size: contain; 
+    padding-bottom: 20vw;
+    background-image: url('./landing.svg'); height:100%; width: 100%; background-color:#056BA5; background-position: bottom;background-repeat: no-repeat;  background-size: contain;
    }
 }
 @media only screen and (min-width: 1181px ) {
   .landing-back {
-    padding-bottom: 30vh; background-image: url('./landing.svg'); height:100%; width: 100%; background-color:#056BA5; background-position: center;background-repeat: no-repeat;  background-size: cover; 
+    padding-bottom: 30vh; background-image: url('./landing.svg'); height:100%; width: 100%; background-color:#056BA5; background-position: center;background-repeat: no-repeat;  background-size: cover;
    }
 }
 
@@ -198,7 +198,7 @@ ul{
   to{
     transform: translate(100px, 0px);
   }
-  
+
 }
 
 #right_move_tree{
@@ -208,11 +208,11 @@ ul{
 @keyframes trees{
   from{
     transform: rotateY(0deg);
-   
+
   }
   to{
     transform: rotateY(4deg);
-   
+
   }
 } */
 
@@ -221,7 +221,7 @@ ul{
   /* width: 100%;
   height: auto;
   position: absolute; */
-  
+
 }
 .reviews{
   display:flex;
@@ -241,7 +241,7 @@ ul{
   border: none;
   animation: glow 2000ms infinite;
 
-  
+
 }
 #formbutton2{
   background-color:#056Ba5;
@@ -264,7 +264,7 @@ ul{
 
 
 #formbutton:hover {
-  background-color:#C1EEDE; 
+  background-color:#C1EEDE;
   color:#056Ba5 ;
 }
 
@@ -288,17 +288,17 @@ ul{
 }
 
 #mission{
-  font-size: 20px;  
+  font-size: 20px;
 }
 
 #getconnected {
-  font-size: 20px;  
+  font-size: 20px;
 }
 
 .process-circles{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: 
+  grid-template-areas:
   "process process process"
   "step1 step2 step3";
   grid-template-rows: 1fr 1fr 1fr;
@@ -348,7 +348,7 @@ ul{
 
 .button2{
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   padding-top: 200px;
 }
 
@@ -503,7 +503,7 @@ svg {
   overflow: hidden;
   vertical-align: middle;
   position: relative;
-  
+
 }
 
 table {
@@ -892,7 +892,7 @@ pre code {
   padding-left: 1.5rem;
   margin-right: auto;
   margin-left: auto;
- 
+
 }
 
 
@@ -1009,7 +1009,7 @@ pre code {
   /* left: 2vw;
   top: 12vh; */
   text-align: left;
-  
+
 }
 .caption{
   flex: 0 0 33.3333333333%;
@@ -1017,7 +1017,7 @@ pre code {
   left: 2vw;
   top: 16vh;
   text-align: left;
-  
+
 }
 
 .col-5 {
@@ -6250,7 +6250,7 @@ a.close.disabled {
 
 .carousel-control-prev {
   left: 0;
-  
+
 }
 
 .carousel-control-next {
@@ -10456,7 +10456,7 @@ h3 {
 /* @media (min-width: 992px) {
   .masthead {
     padding-top: calc(1rem + 104px);
-   
+
   } */
   .masthead .masthead-heading {
     font-size: 4rem;
