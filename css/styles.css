@@ -90,6 +90,10 @@ ul{
   }
 }
 
+.front1{
+  background-image: url('./assets/img/landing.svg');
+}
+
 
 .back{
   z-index: 1;
