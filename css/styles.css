@@ -116,17 +116,17 @@ ul{
   padding-top: 20vh;
 }
 
-@media only screen and (max-width: 990px ) {
+@media only screen and (max-width: 1180px ) {
   .landing-back {
     background-image:none;
     background-color: #056BA5;
     padding-bottom: 50vw;
-    background-image: url('file:///Users/dfeng21/Desktop/connect@cal%20website/assets/img/landing.svg'); height:100%; width: 100%; background-color:#056BA5; background-position: bottom;background-repeat: no-repeat;  background-size: contain; 
+    background-image: url('./landing.svg'); height:100%; width: 100%; background-color:#056BA5; background-position: bottom;background-repeat: no-repeat;  background-size: contain; 
    }
 }
-@media only screen and (min-width: 992px ) {
+@media only screen and (min-width: 1181px ) {
   .landing-back {
-    padding-bottom: 30vh; background-image: url('file:///Users/dfeng21/Desktop/connect@cal%20website/assets/img/landing.svg'); height:100%; width: 100%; background-color:#056BA5; background-position: center;background-repeat: no-repeat;  background-size: cover; 
+    padding-bottom: 30vh; background-image: url('./landing.svg'); height:100%; width: 100%; background-color:#056BA5; background-position: center;background-repeat: no-repeat;  background-size: cover; 
    }
 }
 
