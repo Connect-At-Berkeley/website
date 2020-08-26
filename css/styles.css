@@ -291,6 +291,10 @@ ul{
   font-size: 20px;  
 }
 
+#getconnected {
+  font-size: 20px;  
+}
+
 .process-circles{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -519,8 +523,12 @@ caption {
   text-align: center;
 
 }
-.notcurrent{
+.active {
   text-align: center;
+}
+
+.active.notcurrent {
+  color: white !important;
 }
 
 th {
