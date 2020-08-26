@@ -135,6 +135,7 @@ ul{
   padding-right: 70px !important;
   padding-top: 130px;
   padding-left: 10vw !important;
+  z-index: 10000;
 }
 
 
