@@ -65,11 +65,16 @@
       });
     });
     $(document).ready(function(){
-      $(".formopen").click(function(){
-        window.open("form.html", "_self");
+      $(".formopengeneral").click(function(){
+        window.open("https://forms.gle/Lc3ByWGvsvuxsadD6");
         console.log("opened form")
       });
     });
-    
+    $(document).ready(function(){
+      $(".formopenclub").click(function(){
+        window.open("https://forms.gle/GJdgz8MUpp47J3qL7");
+        console.log("opened form")
+      });
+    });
   })(jQuery); // End of use strict
   
