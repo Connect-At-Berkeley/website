@@ -166,6 +166,10 @@ ul{
    iframe {
     width: 100%;
    }
+
+   .active.notcurrent {
+    color: #056BA5 !important;
+  }
 }
 @media only screen and (min-width: 1181px ) {
   .landing-back {
@@ -187,6 +191,12 @@ ul{
     padding-top: 130px;
     padding-left: 10vsw !important;
     z-index: 4;
+  }
+  .active {
+    text-align: center;
+  }
+  .active.notcurrent {
+    color: white !important;
   }
 }
 
@@ -617,13 +627,6 @@ caption {
   color: white !important;
   text-align: center;
 
-}
-.active {
-  text-align: center;
-}
-
-.active.notcurrent {
-  color: white !important;
 }
 
 th {
