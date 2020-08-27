@@ -36,9 +36,10 @@
                 <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto mr-4">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="masthead">Home</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="process">About</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="mission">Get Connected</a></li>
+                      <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="index.html">Home</a></li>
+                      <li class="nav-item mx-0 mx-lg-1"><a class="notcurrent nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#process">About</a></li>
+                      <li class="nav-item mx-0 mx-lg-1"><a class="notcurrent nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#getconnected">Get Connected</a></li>
+                      <li class="nav-item mx-0 mx-lg-1"><a class="notcurrent nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="https://www.notion.so/Join-Connect-Cal-51e75a4da73042fda61b2e6b9fd3ad6b">Join Us!</a></li>
                         <!-- <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="resources.html">Add a Resource</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="getinvolved.html">Get Involved</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="partners.html">Our Partners</a></li> -->
@@ -48,13 +49,16 @@
         </nav>
 
         <!-- Masthead -->
-        <header class="masthead bg-primary">
+        <header class="masthead bg-primary" id="home">
             <div class="container-fluid">
                 <div class="row header-row">
                     <div class="landing-back">
                         <div>
                             <h3 class="content_info_1 col-sm-12 col-md-6" >Get connected to any resource, opportunity, or program at UC Berkeley </h3>
-                            <div style="padding-top: 0;" class="col-sm-12 content_info" >
+                            <h1 class="content_info_2 col-12 mb-4" style=" color: white; ">
+                                Just click the button below!
+                            </h1>
+                            <div style="padding-top: 0;" class="col-sm-12 content_info_1" >
                                 <button class="formopen" type="button" style="font-size: 1.125rem;" id="formbutton"> Submit a case</button>
                             </div>
                         </div>
@@ -120,7 +124,7 @@
             <div class="container-fluid">
                 <div class="row d-flex justify-content-center align-items-start">
                     <div class="col-lg-7">
-                        <div class="mission-title" id ="mission">
+                        <div class="mission-title">
                             <h4> Our Mission</h4>
                             <img class="mb-5" src="assets/img/linesleft.svg">
                             <p class="mb-5" style="color: #056Ba5"> We believe that the overabundance of information, siloed resources, and the state of UC Berkeley's support system have inhibited students from achieving holistic wellness on campus.
@@ -139,7 +143,7 @@
             </div>
         </section>
         <!-- Our Vision-->
-        <section class="page-section porfolio" id="mission">
+        <section class="page-section porfolio" id="vision">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-5 order-lg-1 col-md-12 order-md-12 order-12">
@@ -223,16 +227,16 @@
 
           <!-- Get Connected Button Again-->
          <section style="background-color: #ECFFFE;"
-         class="page-section porfolio nopadding" id="mission">
+         class="page-section porfolio nopadding" id="getconnected">
             <div class="container-fluid nopadding">
                 <div class="background-img">
                     <div class="row d-flex justify-content-center">
-                        <div class="row content_info">
-                            <h4 style="margin-top: 10vw; font-size: 3vw; color: white;"> Get Connected. Fill out the form now!</h4>
+                        <div class="row get-connected">
+                            <h4 style="margin-top: 10vw; color: white;"> Get Connected. Fill out the form now!</h4>
                         </div>
 
-                        <div class="row content_info">
-                            <button class="formopen" style="margin-top: 20vw; font-size: 1.5vw;" id="formbutton"> Connect@Cal Form</button>
+                        <div class="row get-connected">
+                            <button class="formopen h4" style="margin-top: 20vw;" id="formbutton"> Connect@Cal Form</button>
                         </div>
                         </div>
                     <img class="back" src="assets/img/landing_bottom.svg">
