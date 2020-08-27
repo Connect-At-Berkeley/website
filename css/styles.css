@@ -133,8 +133,7 @@ ul{
 .content_info{
   position: absolute;
   padding-right: 70px !important;
-  padding-top: 130px;
-  padding-left: 10vw !important;
+  padding-top: 10vh;
   z-index: 4;
 }
 
@@ -243,6 +242,22 @@ ul{
 
   
 }
+#formbutton3{
+  background-color:white;
+  color:#056Ba5;
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
+
+  border: none;
+  animation: glow 2000ms infinite;
+
+  
+}
+
 #formbutton2{
   background-color:#056Ba5;
   color: white;
@@ -261,7 +276,10 @@ ul{
   background-color:#C1EEDE;
   color:#056Ba5 ;
 }
-
+#formbutton3:hover {
+  background-color:#C1EEDE;
+  color:#056Ba5 ;
+}
 
 #formbutton:hover {
   background-color:#C1EEDE; 
