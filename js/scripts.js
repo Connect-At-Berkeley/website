@@ -76,6 +76,12 @@
         console.log("opened form")
       });
     });
+    $(document).ready(function(){
+      $(".join").click(function(){
+        window.open("https://www.notion.so/Join-Connect-Cal-51e75a4da73042fda61b2e6b9fd3ad6b");
+        console.log("opened form")
+      });
+    });
    
     
   })(jQuery); // End of use strict
