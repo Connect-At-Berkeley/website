@@ -717,41 +717,8 @@ h6, .h6 {
   font-size: 1.25rem; /*20px*/
 }
 
-.img-wrap{
-  position: relative;
-  width: 50%;
-}
-.actual-image{
-  display: block;
-  width: 100%;
-  height: auto;
-}
-.img-description{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left:0;
-  right: 0;
-  height: auto;
-  width: 100%;
-  background-color:#ECFFFE;
-  transition: .5s ease;
-  opacity: 0;
-  border-radius: 50px;
-}
-.img-wrap:hover .img-description{
-  opacity: 1;
-}
-.text {
-  color: #056BA5;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
+
+
 
 .lead {
   font-size: 18px;

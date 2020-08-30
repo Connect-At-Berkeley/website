@@ -82,6 +82,18 @@
         console.log("opened form")
       });
     });
+    $(document).ready(function(){
+      $(".resourcebutton").click(function(){
+        window.location.href = "mailto:resources@connected.berkeley.edu"
+        console.log("opened form")
+      });
+    });
+    $(document).ready(function(){
+      $(".partnerbutton").click(function(){
+        window.location.href = "https://forms.gle/mMvsWPzYiK7oJMLb9"
+        console.log("opened form")
+      });
+    });
    
     
   })(jQuery); // End of use strict
