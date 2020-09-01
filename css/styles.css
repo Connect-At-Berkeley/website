@@ -112,9 +112,57 @@ ul{
   font-family: 'Martel Sans', sans-serif;
   
 }
+.faqpad{
+  padding-right: 10rem; 
+  padding-left: 10rem;
+}
+
+@media only screen and (max-width: 600px ) {
+  .ourstory{
+    border-radius: 10px;
+    background: white;
+    color: #056BA5;
+    padding: 10px;
+    font-family: 'Martel Sans', sans-serif;
+    
+  }
+  .col-lg-12{
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  } 
+  .col-md-12{
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .col-md-4{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .resourcepad{
+    padding-top: 80px !important;
+  }
+  .asucimg{
+    width: 50vw;
+    height: 50vh;
+  }
+  .pad{
+    padding-left: 20vw !important;
+  }
+  .content_info{
+    position: absolute;
+    padding-left: 5vw !important;
+    padding-top: 10vh;
+    z-index: 4;
+  }
+  .faqpad{
+    padding-left: 0vw;
+    padding-right: 0vw;
+  }
+}
 .storyimg{
   padding-top: 20vh;
 }
+
 
 @media only screen and (max-width: 1180px ) {
   .landing-back {
@@ -127,6 +175,10 @@ ul{
 @media only screen and (min-width: 1181px ) {
   .landing-back {
     padding-bottom: 30vh; background-image: url('./landing.svg'); height:100%; width: 100%; background-color:#056BA5; background-position: center;background-repeat: no-repeat;  background-size: cover; 
+   }
+   .faqpad{
+     padding-left: 5vw !important;
+     padding-right: 5vw !important;
    }
 }
 
