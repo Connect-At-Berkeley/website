@@ -64,6 +64,37 @@
         $(this).removeClass("floating-label-form-group-with-focus");
       });
     });
-  
+    $(document).ready(function(){
+      $(".formopengeneral").click(function(){
+        window.open("https://forms.gle/Lc3ByWGvsvuxsadD6");
+        console.log("opened form")
+      });
+    });
+    $(document).ready(function(){
+      $(".formopenclub").click(function(){
+        window.open("https://forms.gle/GJdgz8MUpp47J3qL7");
+        console.log("opened form")
+      });
+    });
+    $(document).ready(function(){
+      $(".join").click(function(){
+        window.open("https://www.notion.so/Join-Connect-Cal-51e75a4da73042fda61b2e6b9fd3ad6b");
+        console.log("opened form")
+      });
+    });
+    $(document).ready(function(){
+      $(".resourcebutton").click(function(){
+        window.location.href = "mailto:resources@connected.berkeley.edu"
+        console.log("opened form")
+      });
+    });
+    $(document).ready(function(){
+      $(".partnerbutton").click(function(){
+        window.location.href = "https://forms.gle/mMvsWPzYiK7oJMLb9"
+        console.log("opened form")
+      });
+    });
+   
+    
   })(jQuery); // End of use strict
   
