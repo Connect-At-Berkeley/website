@@ -148,12 +148,7 @@ ul{
   .pad{
     padding-left: 20vw !important;
   }
-  .content_info{
-    position: absolute;
-    padding-left: 5vw !important;
-    padding-top: 10vh;
-    z-index: 4;
-  }
+ 
   .faqpad{
     padding-left: 0vw;
     padding-right: 0vw;
@@ -318,7 +313,6 @@ ul{
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 18px;
-
   border: none;
   animation: glow 2000ms infinite;
 
@@ -344,7 +338,7 @@ ul{
   color:#056Ba5 ;
 }
 #formbutton3:hover {
-  background-color:#C1EEDE;
+  background-color:#a0a7a4;
   color:#056Ba5 ;
 }
 
@@ -10452,7 +10446,7 @@ h3 {
 .scroll-to-top a {
   width: 3.5rem;
   height: 3.5rem;
-  background-color: rgba(33, 37, 41, 0.5);
+  background-color: #024f7c;
   line-height: 3.1rem;
 }
 
