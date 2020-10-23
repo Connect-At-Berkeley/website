@@ -184,6 +184,15 @@ ul{
   padding-top: 10vh;
   z-index: 4;
 }
+@media only screen and (max-width: 541px ) {
+  .content_info{
+    position: absolute;
+    padding-right: 70px !important;
+    padding-left: 20px !important;
+    padding-top: 10vh;
+    z-index: 4;
+  }
+}
 
 
 .nopadding {
@@ -291,7 +300,7 @@ ul{
   
 }
 #formbuttonbuddies{
-  background-color:#FFDC84;
+  background-color:#FFDC61;
   color:#056Ba5;
   border-radius: 10px;
   padding-left: 30px;
@@ -306,7 +315,7 @@ ul{
   
 }
 #formbuttonbuddies:hover{
-  background-color:#FFD952;
+  background-color:#ECC641;
   color:#056Ba5;
   border-radius: 10px;
   padding-left: 30px;
@@ -380,6 +389,10 @@ ul{
 #caption{
   padding-top: 60px;
   color: #0B413E;
+}
+.no-bold{
+  font-weight: normal !important;
+  font-family: 'Martel Sans', sans-serif !important;
 }
 
 #process{
