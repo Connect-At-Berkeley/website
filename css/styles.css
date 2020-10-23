@@ -184,6 +184,15 @@ ul{
   padding-top: 10vh;
   z-index: 4;
 }
+@media only screen and (max-width: 541px ) {
+  .content_info{
+    position: absolute;
+    padding-right: 70px !important;
+    padding-left: 20px !important;
+    padding-top: 10vh;
+    z-index: 4;
+  }
+}
 
 
 .nopadding {
@@ -290,6 +299,36 @@ ul{
 
   
 }
+#formbuttonbuddies{
+  background-color:#FFDC61;
+  color:#056Ba5;
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
+
+  border: none;
+  animation: glow 2000ms infinite;
+
+  
+}
+#formbuttonbuddies:hover{
+  background-color:#ECC641;
+  color:#056Ba5;
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
+
+  border: none;
+  animation: glow 2000ms infinite;
+
+  
+}
 
 #formbutton10{
   background-color:white;
@@ -350,6 +389,10 @@ ul{
 #caption{
   padding-top: 60px;
   color: #0B413E;
+}
+.no-bold{
+  font-weight: normal !important;
+  font-family: 'Martel Sans', sans-serif !important;
 }
 
 #process{
