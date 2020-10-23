@@ -290,6 +290,36 @@ ul{
 
   
 }
+#formbuttonbuddies{
+  background-color:#FFDC84;
+  color:#056Ba5;
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
+
+  border: none;
+  animation: glow 2000ms infinite;
+
+  
+}
+#formbuttonbuddies:hover{
+  background-color:#FFD952;
+  color:#056Ba5;
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
+
+  border: none;
+  animation: glow 2000ms infinite;
+
+  
+}
 
 #formbutton10{
   background-color:white;

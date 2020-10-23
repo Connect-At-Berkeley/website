@@ -64,15 +64,21 @@
         $(this).removeClass("floating-label-form-group-with-focus");
       });
     });
+    // $(document).ready(function(){
+    //   $(".formopengeneral").click(function(){
+    //     window.open("https://forms.gle/Lc3ByWGvsvuxsadD6");
+    //     console.log("opened form")
+    //   });
+    // });
     $(document).ready(function(){
       $(".formopengeneral").click(function(){
-        window.open("https://forms.gle/Lc3ByWGvsvuxsadD6");
+        window.open("https://docs.google.com/forms/u/3/d/e/1FAIpQLSeIhji_oCPPe4dR_A8rQ3LHOJHZ43PH1ZZIfcXK4S8ua2QpZQ/viewform?usp=send_form");
         console.log("opened form")
       });
     });
     $(document).ready(function(){
-      $(".formopenclub").click(function(){
-        window.open("https://forms.gle/GJdgz8MUpp47J3qL7");
+      $(".formopenbuddies").click(function(){
+        window.open("https://forms.gle/57XJfC5VFsrCnDh56");
         console.log("opened form")
       });
     });
