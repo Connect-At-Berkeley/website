@@ -299,7 +299,8 @@ ul{
 
   
 }
-#formbuttonbuddies{
+
+#formbuttonbuddy{
   background-color:#FFDC61;
   color:#056Ba5;
   border-radius: 10px;
@@ -314,7 +315,8 @@ ul{
 
   
 }
-#formbuttonbuddies:hover{
+
+#formbuttonbuddy:hover{
   background-color:#ECC641;
   color:#056Ba5;
   border-radius: 10px;
