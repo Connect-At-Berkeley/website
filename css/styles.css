@@ -284,7 +284,7 @@ ul{
   justify-content: center;
 }
 
-#formbutton{
+.formbutton{
   background-color:white;
   color:#056Ba5;
   border-radius: 10px;
@@ -299,7 +299,23 @@ ul{
 
   
 }
-#formbuttonbuddy{
+.hiring-button{
+  background-color:#056BA5;
+  color:white;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 1rem;
+
+
+  border: none;
+  animation: glow 2000ms infinite;
+
+  
+}
+.formbuttonbuddy{
   background-color:#FFDC61;
   color:#056Ba5;
   border-radius: 10px;
@@ -314,7 +330,7 @@ ul{
 
   
 }
-#formbuttonbuddy:hover{
+.formbuttonbuddy:hover{
   background-color:#ECC641;
   color:#056Ba5;
   border-radius: 10px;
@@ -380,8 +396,13 @@ ul{
   background-color:#a0a7a4;
   color:#056Ba5 ;
 }
+#top-alert {
+  position: fixed;
+  top: 0;
+  z-index: 99999;
+}
 
-#formbutton:hover {
+.formbutton:hover {
   background-color:#C1EEDE; 
   color:#056Ba5 ;
 }
@@ -393,6 +414,11 @@ ul{
 .no-bold{
   font-weight: normal !important;
   font-family: 'Martel Sans', sans-serif !important;
+}
+
+.alert.alert-server{
+  margin-bottom: 0;
+  border-radius: 0;
 }
 
 #process{
