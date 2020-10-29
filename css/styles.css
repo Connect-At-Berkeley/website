@@ -160,7 +160,7 @@ ul{
 }
 
 
-@media only screen and (max-width: 1180px ) {
+@media only screen and (max-width: 1305px ) {
   .landing-back {
     background-image:none;
     background-color: #056BA5;
@@ -168,7 +168,7 @@ ul{
     background-image: url('./landing.svg'); height:100%; width: 100%; background-color:#056BA5; background-position: bottom;background-repeat: no-repeat;  background-size: contain; 
    }
 }
-@media only screen and (min-width: 1181px ) {
+@media only screen and (min-width: 1305px ) {
   .landing-back {
     padding-bottom: 30vh; background-image: url('./landing.svg'); height:100%; width: 100%; background-color:#056BA5; background-position: center;background-repeat: no-repeat;  background-size: cover; 
    }
