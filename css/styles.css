@@ -346,6 +346,38 @@ ul{
   
 }
 
+#formbuttonbud{
+  background-color:#FFDC61;
+  color:#056Ba5;
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
+
+  border: none;
+  animation: glow 2000ms infinite;
+
+  
+}
+
+#formbuttonbud:hover{
+  background-color:#ECC641;
+  color:#056Ba5;
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
+
+  border: none;
+  animation: glow 2000ms infinite;
+
+  
+}
+
 #formbutton10{
   background-color:white;
   color:#056Ba5;
@@ -416,10 +448,12 @@ ul{
   font-family: 'Martel Sans', sans-serif !important;
 }
 
+
 .alert.alert-server{
   margin-bottom: 0;
   border-radius: 0;
 }
+
 
 #process{
   font-style: normal;
