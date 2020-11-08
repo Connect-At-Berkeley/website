@@ -299,6 +299,84 @@ ul{
 
   
 }
+.hiring-button{
+  background-color:#056BA5;
+  color:white;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 1rem;
+
+
+  border: none;
+  animation: glow 2000ms infinite;
+
+  
+}
+.formbuttonbuddy{
+  background-color:#FFDC61;
+  color:#056Ba5;
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
+
+  border: none;
+  animation: glow 2000ms infinite;
+
+  
+}
+.formbuttonbuddy:hover{
+  background-color:#ECC641;
+  color:#056Ba5;
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
+
+  border: none;
+  animation: glow 2000ms infinite;
+
+  
+}
+
+#formbuttonbud{
+  background-color:#FFDC61;
+  color:#056Ba5;
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
+
+  border: none;
+  animation: glow 2000ms infinite;
+
+  
+}
+
+#formbuttonbud:hover{
+  background-color:#ECC641;
+  color:#056Ba5;
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
+
+  border: none;
+  animation: glow 2000ms infinite;
+
+  
+}
 
 .donatebutton{
   color:white;
@@ -3403,7 +3481,6 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: ;
   text-decoration: none;
 }
 .btn-link:hover {
@@ -10639,7 +10716,7 @@ h3 {
   .masthead .masthead-subheading {
     font-size: 1.5rem;
   }
-}
+
 .portfolio .portfolio-item {
   cursor: pointer;
   position: relative;
