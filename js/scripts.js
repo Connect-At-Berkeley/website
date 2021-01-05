@@ -83,6 +83,12 @@
       });
     });
     $(document).ready(function(){
+      $(".formopenclubs").click(function(){
+        window.open("https://docs.google.com/forms/d/e/1FAIpQLSebbvAgASje7pMvO3mBVsGxygbwKegGqtR-Ugl9VA-1HccLUw/closedform");
+        console.log("opened form")
+      });
+    });
+    $(document).ready(function(){
       $(".join").click(function(){
         window.open("https://www.notion.so/Join-Connect-Cal-51e75a4da73042fda61b2e6b9fd3ad6b");
         console.log("opened form")

@@ -1,11 +1,11 @@
 <svg viewBox="0 0 1440 834" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                             <style type="text/css">
                                 #right_cloud{
-                                    animation: clouds 60s infinite alternate;
+                                    animation: clouds 50s infinite alternate;
                                   }
                                   
                                   #left_cloud{
-                                    animation: clouds 60s infinite alternate;
+                                    animation: clouds 50s infinite alternate;
                                   }
                                   @keyframes clouds{
                                     from{

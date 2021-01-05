@@ -155,8 +155,40 @@ ul{
   }
   
 }
+.card-item{
+  margin-bottom: 50px;
+}
+.btn-general{
+  background-color:white;
+  color:#056Ba5;
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
+
+  border: none;
+  animation: glow 2000ms infinite;
+}
 .storyimg{
   padding-top: 20vh;
+}
+.card-bkg{
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  background-color: #056BA5;
+  color: white !important;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  /* height: 290px; */
+  
 }
 
 
@@ -168,7 +200,7 @@ ul{
     background-image: url('./landing.svg'); height:100%; width: 100%; background-color:#056BA5; background-position: bottom;background-repeat: no-repeat;  background-size: contain; 
    }
 }
-@media only screen and (min-width: 1305px ) {
+@media only screen and (min-width: 1000px ) {
   .landing-back {
     padding-bottom: 30vh; background-image: url('./landing.svg'); height:100%; width: 100%; background-color:#056BA5; background-position: center;background-repeat: no-repeat;  background-size: cover; 
    }
@@ -233,6 +265,12 @@ ul{
 #left_cloud{
   animation: clouds 60s infinite alternate;
 } */
+.about-img{
+  width: 500px; /* width of container */
+  height: 500px; /* height of container */
+  object-fit: cover;
+  border-radius: 50px;
+}
 
 @keyframes glow{
   0%{
