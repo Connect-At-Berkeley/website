@@ -72,7 +72,7 @@
     // });
     $(document).ready(function(){
       $(".formopengeneral").click(function(){
-        window.open("https://docs.google.com/forms/u/3/d/e/1FAIpQLSeIhji_oCPPe4dR_A8rQ3LHOJHZ43PH1ZZIfcXK4S8ua2QpZQ/viewform?usp=send_form");
+        window.open("https://airtable.com/shruBlAoa5D5btpnc");
         console.log("opened form")
       });
     });
