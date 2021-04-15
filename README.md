@@ -11,3 +11,5 @@ To change https://www.ocf.berkeley.edu/~connectcal/ and https://connected.berkel
 
 General deployment:
 Make changes => push to this GitHub repo => Test on https://connect-at-berkeley.github.io/website/ => Deploy on production via pulling changes in OCF server.
+
+Deployment docs: https://docs.google.com/document/d/1o3tSsqfJ1nU6FfLoppSjJMkv4lfcDp7IUGGylMhnnpE/edit#
